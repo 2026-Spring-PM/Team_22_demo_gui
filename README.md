@@ -19,3 +19,9 @@ bash scripts/run.sh
 ```
 
 The first run builds the local Docker image `team22-demo-gui:0.1.0`. Later runs reuse it.
+
+If the package was copied through a system that strips Linux executable bits, the launcher fixes `build/main` automatically. You can also restore permissions manually:
+
+```bash
+chmod +x build/main scripts/*.sh
+```
