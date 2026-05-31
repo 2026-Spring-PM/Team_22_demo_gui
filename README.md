@@ -25,3 +25,5 @@ If the package was copied through a system that strips Linux executable bits, th
 ```bash
 chmod +x build/main scripts/*.sh
 ```
+
+If it still does not work due to permission-related problem, please run commands with `sudo `.
